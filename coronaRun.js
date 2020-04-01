@@ -148,7 +148,7 @@ function drawPlayer() {
 function incrementSeconds() {
     seconds += 1;
     if (seconds % 2 == 0) {
-        speed += 0.02;
+        speed += 0.05;
     }
 }
 //ends Game
