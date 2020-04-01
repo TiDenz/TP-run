@@ -37,7 +37,7 @@ var shopperArr = [];
 var score = 0;
 var highscore = 0;
 var seconds = 0;
-var speed = 1;
+var speed = 1.2;
 var cancel = setInterval(incrementSeconds, 1000);
 
 document.getElementById("score").textContent = "Your score: " + score;
